@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="#">
+            <label for="name">Name Under:</label>
+            <input type="text" name="name" id="name">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <label for="numberofguest">Number of guest:</label>
+            <input type="number" name="numberofguest" id="numberofguest">
+            <fieldset>
+                <legend>Select Your Meal:</legend>
+                <input type="radio" name="meal" id="cream">
+                <label for="cream">Cream Of Mushroom</label>
+                <input type="radio" name="meal" id="fish">
+                <label for="fish">Fish Tacos</label>
+                <input type="radio" name="meal" id="burritos">
+                <label for="burritos">Burrtios</label>
+            </fieldset>
+            <fieldset>
+                <label for="selectmeal">Select Meal</label>
+                <select name="selectmeal" id="selectmeal">
+                    <option value="cream1">Cream</option>
+                    <option value="fish1">Fish</option>
+                    <option value="burritos1">Burritos</option>
+                </select>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>
