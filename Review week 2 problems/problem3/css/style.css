@@ -1,0 +1,22 @@
+caption{
+    font-weight: bold;
+}
+table{
+  width: 25%;;
+  border-collapse:collapse; /* makes the borders not have a space inbetween */
+  text-align: center; 
+  margin:  0 auto;   /* makes the table go in center */
+}
+th, td{
+    border: 2px solid black;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+.dropdown {
+    text-align: center;
+}
+.dropdown button{
+    background-color: green;
+}
