@@ -1,0 +1,12 @@
+th,td {
+    border: 2px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+body{
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
